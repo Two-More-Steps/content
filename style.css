@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Two-More-Steps';
+  src:  url('fonts/Two-More-Steps.eot?f1d3ac');
+  src:  url('fonts/Two-More-Steps.eot?f1d3ac#iefix') format('embedded-opentype'),
+    url('fonts/Two-More-Steps.ttf?f1d3ac') format('truetype'),
+    url('fonts/Two-More-Steps.woff?f1d3ac') format('woff'),
+    url('fonts/Two-More-Steps.svg?f1d3ac#Two-More-Steps') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="tms-"], [class*=" tms-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Two-More-Steps' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tms-cart:before {
+  content: "\f01a";
+}
+.tms-search:before {
+  content: "\e090";
+}
+.tms-user:before {
+  content: "\e005";
+}
